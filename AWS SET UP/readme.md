@@ -1,1 +1,1 @@
-### Please foloow the ORDER of the files for setup
+## Please follow the ORDER of the files for setup
