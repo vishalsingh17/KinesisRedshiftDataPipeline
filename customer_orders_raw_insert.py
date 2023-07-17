@@ -17,6 +17,10 @@ default_args = {
 }
 
 dag = DAG(
+    # The line `"customer_orders_datapipeline_dynamic_batch_id",` is defining the name of the DAG
+    # (Directed Acyclic Graph). In Apache Airflow, a DAG is a collection of tasks and their
+    # dependencies, represented as a code. The name of the DAG is used to uniquely identify it within
+    # the Airflow system.
     "customer_orders_datapipeline_dynamic_batch_id",
     default_args=default_args,
     description="Runs data pipeline",
