@@ -107,3 +107,4 @@ redshift_order_customers_small_transformation = RedshiftSQLOperator(
 [task_orders_landing_to_processing >> redshift_orders_sql_str >> task_orders_processing_to_processed,
  task_customer_landing_to_processing >> redshift_customers_sql_str >> task_customers_processing_to_processed] >> redshift_order_customers_small_transformation >> post_task
 
+
